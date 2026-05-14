@@ -1,0 +1,76 @@
+# Environment
+.env
+*.env
+
+# Data files
+data/raw/*.csv
+data/raw/*.txt
+data/raw/*.json
+data/processed/*.csv
+
+# Models
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pth
+
+# Outputs
+outputs/*.png
+outputs/*.jpg
+outputs/*.pdf
+outputs/*.txt
+outputs/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
